@@ -1,0 +1,15 @@
+.introducao{
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.introducao h1{
+  color: #273753;
+  font-size: 48px;
+}
+
+
+
+

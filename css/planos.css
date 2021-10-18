@@ -1,0 +1,57 @@
+.planos{
+  display: block;
+}
+
+.planos h2{
+  padding: 50px;
+  font-size: 32px;
+}
+
+.item-plano {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.item-plano div{
+  flex: 1;
+  border: 2px solid #273753;
+  margin: 10px;
+  padding: 40px 20px;
+  max-width: 200px;
+}
+
+.item-plano h3{
+  font-size: 24px;
+  display: block;
+  text-align: center;
+  border-bottom: 3px solid #273753;
+  max-width: 150px;
+  margin: auto;
+  padding-bottom: 15px;
+}
+
+.item-plano ul{
+  padding: 25px 10px;
+  
+}
+
+.item-plano li{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 3px 0;
+}
+
+.item-plano li::before{
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: #273753;
+  margin-right: 5px;
+}
+
+
+.item-plano a{
+  margin: auto;
+}

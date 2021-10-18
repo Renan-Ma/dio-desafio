@@ -1,0 +1,16 @@
+footer {
+  background-color: #273753;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+footer div{
+  justify-content: space-between;
+  color: white;
+}
+
+footer p{
+  font-size: 17px;
+}

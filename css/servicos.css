@@ -1,0 +1,42 @@
+.container-serv{
+  background-color: #273753;
+  width: 100%;
+}
+
+.servicos {
+  flex-direction: column;
+  color: white;
+}
+.servicos h2{
+  padding: 50px;
+  font-size: 32px;
+}
+
+.serv-list{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.serv-list div{
+  text-align: center;
+}
+
+.serv-list img{
+  width: 80%;
+  margin: auto;
+}
+
+.serv-list p{
+  margin: 15px;
+}
+
+.serv-list a{
+  background-color: white;
+  color: #273753;
+  width: 120px;
+  height: 50px;
+  padding: 4px 25px;
+  border-radius: 30px;
+  font-weight: bold;
+}

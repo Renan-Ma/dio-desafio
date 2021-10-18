@@ -1,0 +1,30 @@
+.quem-somos{
+  justify-content: space-between;
+  align-items: center;
+  color: #273753;
+  margin-top: 40px;
+}
+
+.quem-somos img{
+  min-width: 400px;
+}
+
+.quem-somos h2{
+  font-size: 30px;
+  color: #273753;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.quem-somos h2::before{
+  content: " ";
+  height: 35px;
+  width: 5px;
+  margin-right: 5px;
+  background-color: #273753;
+}
+
+.quem-somos p{
+  margin-bottom: 10px;
+  width: 90%;
+}
